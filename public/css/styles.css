@@ -1,0 +1,45 @@
+/* public/css/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+}
